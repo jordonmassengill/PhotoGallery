@@ -1,0 +1,59 @@
+/* ================================= 
+  Web Fonts
+==================================== */
+
+@font-face {
+    src: url('../fonts/Merriweather-Regular.ttf'); font-family:"Merriweather" ;
+  }
+  
+  /* ================================= 
+  Base Styles
+==================================== */
+
+* {
+  font-family: 'Merriweather';
+}
+
+main {
+  display: flex;
+  margin: auto;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+form {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 25px;
+  outline: none;
+  width: 500px;
+}
+
+input,
+select {
+  border: 10px;
+  outline: none;
+  text-indent: 5px;
+  width: 600px;
+  padding-top: 7px;
+}
+
+fieldset {
+  width: 600px;
+  height: 30px;
+  border-width: 2px;
+  border-color: rgb(212, 212, 212);
+  border-radius: 6px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+/* TABLETS */
+@media (min-width: 768px) {
+
+}
