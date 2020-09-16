@@ -14,18 +14,17 @@
   font-family: 'Merriweather';
 }
 
-main {
-  display: flex;
-  margin: auto;
-}
 
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
+main {
+  width: 1200px;
+  margin: auto;
+}
+
 form {
-  display: flex;
-  align-items: center;
   margin: auto;
   padding: 25px;
   outline: none;
@@ -37,18 +36,32 @@ select {
   border: 10px;
   outline: none;
   text-indent: 5px;
-  width: 600px;
   padding-top: 7px;
 }
 
 fieldset {
-  width: 600px;
+  margin: auto;
   height: 30px;
   border-width: 2px;
   border-color: rgb(212, 212, 212);
   border-radius: 6px;
 }
 
+.search {
+  width: 600px;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+img {
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
 
 /* ================================= 
   Media Queries
